@@ -23,7 +23,7 @@ function addEmployee() {
         },
         {
             type: "input",
-            message: "What is your employee id number?",
+            message: "What is your employee ID number?",
             name: "id",
         },
         {
@@ -33,7 +33,7 @@ function addEmployee() {
         },
         {
             type: "list",
-            message: "What is the role of the employee?",
+            message: "What is the role of this employee?",
             name: "role",
             choices: ["Manager", "Engineer", "Intern", ]
         },
@@ -43,7 +43,7 @@ function addEmployee() {
         if (response.role === "Manager") {
             inquirer.prompt([{
                 type: "input",
-                message: "What is your office number?",
+                message: "What is the office number?",
                 name: "officeNumber",
             }, ]).then(function(response) {
                 // Creates new manager
@@ -55,7 +55,7 @@ function addEmployee() {
         } else if (response.role === "Engineer") {
             inquirer.prompt([{
                     type: "input",
-                    message: "What is your Github username?",
+                    message: "What is the Github username?",
                     name: "github",
                 }, ]).then(function(response) {
                     // Creates new engineer
@@ -67,7 +67,7 @@ function addEmployee() {
         } else if (response.role === "Intern") {
             inquirer.prompt([{
                 type: "input",
-                message: "Which school did you attend?",
+                message: "What school do you attend?",
                 name: "school",
             }, ]).then(function(response) {
                 // Creates new intern
