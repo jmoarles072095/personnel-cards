@@ -7,6 +7,10 @@
 4. Inquirer package has to be installed for a successful test
 5. After answering promted questions it will generate a file team.html into an output folder
 6. It has options of just creating one card or creating multiple with different roles
+
+## Video
+
+https://drive.google.com/file/d/18zDvCbcgosGTYUNFfWl03sGRfYiUiPIE/view
  
 ## Table of Contents
 * [Installation](#installation)

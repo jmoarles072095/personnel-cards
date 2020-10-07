@@ -107,7 +107,7 @@ function createHTML(data) {
         if (err) {
             throw err;
         } else {
-            console.log("Success, you've created your team profile!");
+            console.log("You have successfully created your employee's card");
         };
     });
 };
